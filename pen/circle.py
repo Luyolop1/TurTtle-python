@@ -1,0 +1,17 @@
+import turtle
+turtle.bgcolor("maroon")
+var1 = turtle.Turtle()
+var1.speed(190)
+for i in range(180):
+    var1.color("white")
+    var1.forward(150)
+    var1.right(30)
+    var1.forward(20)
+    var1.left(60)
+    var1.forward(50)
+    var1.right(30)
+    var1.penup()
+    var1.setposition(0,0)
+    var1.pendown()
+    var1.right(2)
+turtle.done()
